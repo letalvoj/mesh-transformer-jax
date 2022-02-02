@@ -1,12 +1,13 @@
+tensorflow~=2.5.0
 numpy~=1.19.5
-tqdm~=4.45.0
+tqdm>=4.45.0
 wandb>=0.11.2
 einops~=0.3.0
 requests~=2.25.1
 fabric~=2.6.0
 optax==0.0.6
-git+https://github.com/deepmind/dm-haiku
-git+https://github.com/EleutherAI/lm-evaluation-harness/
+git+https://github.com/deepmind/dm-haiku@v0.0.5
+git+https://github.com/EleutherAI/lm-evaluation-harness@v0.0.1
 ray[default]==1.4.1
 jax~=0.2.12
 Flask~=1.1.2
